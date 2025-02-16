@@ -4,6 +4,8 @@ plugins:
   - uses:
       - plugin: "https://ubiquity-os-command-wallet-main.ubiquity.workers.dev"
   - uses:
+      - plugin: "https://ubiquity-os-command-start-stop-main.ubiquity.workers.dev"
+  - uses:
       - plugin: "ubiquity-os-marketplace/command-ask@main"
         with:
           model: "anthropic/claude-3.5-sonnet"
